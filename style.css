@@ -1,18 +1,19 @@
-<<<<<<< HEAD
-*{
+* {
     padding: 0;
     margin: 0;
-    font-family: 'Josefin Sans' , sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
-.page{
+
+.page {
     height: 100vh;
     width: 100%;
     background-image: url(img/backgrund.jpg);
     background-size: cover;
     background-position: center;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,278 +21,165 @@ nav{
     padding-left: 7%;
     padding-right: 7%;
 }
-.logo{
+
+.logo {
     color: aliceblue;
-    font-size: 30px;
+    font-size: 36px; /* Increased font size */
     letter-spacing: 1px;
     cursor: pointer;
 }
-span{
+
+span {
     color: dodgerblue;
 }
-nav ul li{
+
+nav ul li {
     list-style-type: none;
     display: inline-block;
-    
 }
-nav ul li a{
-    display: inline-block;
-    color:aliceblue;
-    padding: 5px 5px;
-    margin-left: 10px;
-    text-decoration:none;
-    font-weight: bold;
-    text-transform: capitalize;
-}
-nav ul li a:hover{
-    color: dodgerblue;
-    transition: .4s;
-}
-.btn{
+
+    nav ul li a {
+        display: inline-block;
+        color: aliceblue;
+        padding: 10px 15px; /* Increased padding */
+        margin-left: 15px; /* Increased margin */
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px; /* Increased font size */
+        text-transform: capitalize;
+    }
+
+        nav ul li a:hover {
+            color: dodgerblue;
+            transition: .4s;
+        }
+
+.btn {
     background-color: dodgerblue;
-    color:aliceblue;
-    text-decoration:none;
+    color: aliceblue;
+    text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
-    padding: 6px 20px;
-    border-radius: 13px;
+    padding: 10px 25px; /* Increased padding */
+    border-radius: 10px; /* Adjusted border radius */
     transition: transform .4s;
 }
-.btn:hover{
-    transform: scale(1.1);
-}
-.content{
+
+    .btn:hover {
+        transform: scale(1.1);
+    }
+
+.content {
     position: absolute;
     top: 50%;
     left: 27%;
     transform: translateY(-50%);
 }
-h1{
-    color:aliceblue;
-    margin: 20px 0px 20px;
-    font-size: 75px;
+
+h1 {
+    color: aliceblue;
+    margin: 20px 0;
+    font-size: 80px; /* Increased font size */
 }
 
-h1:hover{
-    color: dodgerblue;
-    transition: .4s;
-}
-h3{
+    h1:hover {
+        color: dodgerblue;
+        transition: .4s;
+    }
+
+h3 {
     color: aliceblue;
     font-style: italic;
-    font-size: 25px;
-    margin-bottom:30px;
+    font-size: 30px; /* Increased font size */
+    margin-bottom: 30px;
 }
-span{
+
+h6 {
     color: dodgerblue;
-}
-h6{
-    color:dodgerblue;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 22px; /* Increased font size */
 }
-.newslatter form{
-    width: 380px;
-    max-width: 100%;
-    position: relative;
-}
-.newslatter form input:first-child{
-    display: inline-block;
-    width: 100%;
-    padding: 10px 130px 10px 15px;
-    border: 2px solid dodgerblue;
-    outline: none;
-    border-radius: 30px;
-}
-.newslatter form input:last-child{
-    position: absolute;
-    display: inline-block;
-    font-weight: bold;
-    outline: none;
-    border: none;
-    padding: 7px 20px;
-    border-radius: 14px;
-    margin-left: 5px;
-    background-color:dodgerblue;
-    color:aliceblue;
-    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
-    top: 5px;
-    right: 6px;
-}
-.newslatter form input:last-child:hover{
-    transform: scale(1.02) ;
-}
-.about{
-    height: 100vh;
-    width: 100%;
-    background-image: url(img/adelin-preda--tOr_T4qTpQ-unsplash.jpg);
-    background-size:auto;
-    background-position: center;
-}
-.interest img{
-    height: auto;
-    width: 500px;
-    margin-top: 10%;
-    margin-bottom: 12%;
-}
-.about img{
-    height: auto;
-    width: 350px;
-    margin-bottom: 12%;
-}
-.about-text{
-    width: 550px;
-    margin-bottom: 5%;
-}
-.main{
-    width: 1130px;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.about-text h2{
+
+.about-text h2 {
     color: white;
-    font-size: 60px;
+    font-size: 64px; /* Increased font size */
     text-transform: capitalize;
     margin-bottom: 10px;
 }
 
-.about-text h5{
+.about-text h5 {
     color: white;
     letter-spacing: 1.8px;
-    font-size: 20px;
+    font-size: 24px; /* Increased font size */
     margin-bottom: 10px;
     text-transform: capitalize;
 }
-.about-text p{
+
+.about-text p {
     color: dodgerblue;
     letter-spacing: 1px;
-    line-height: 25px;
-    font-size: 18px;
+    line-height: 28px; /* Increased line height */
+    font-size: 20px; /* Increased font size */
     margin-bottom: 25px;
 }
-button{
-    background-color: dodgerblue;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 10px 30px;
-    border-radius: 20px;
-    transition: .4s;
-}
-button:hover{
-    background-color: transparent;
-    border: 2px solid dodgerblue;
-    cursor: pointer;
-}
-.interest{
-    height: 100vh;
-    width: 100%;
-    background-image: url(img/bk3.jpg);
-    background-size: cover;
-    background-position: center;   
-}
-.title h2{
-    color: white;
-    font-size: 50px;
-    width: 800px;
-    margin: 30px auto;
-    text-align: center;
-    
-}
-.box{
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    min-height: 40px;
-}
-.card{
-    height: 200px;
-    width: 335px;
-    padding: 20px 35px;
-    background-color: #191919;
-    border-radius: 20px;
-    margin: 15px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-}
-h4{
-    color: white;
-    font-size: 20px;
-    margin-bottom: 10px;
 
-}
-.pra p{
-    color: dodgerblue;
-    font-size: 15px;
-    font-style: italic;
-    line-height: 18px;
-    margin-bottom: 23px;
-}
-.card .button{
-    background-color: dodgerblue;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 5px 30px;
-    border-radius: 20px;
-    transition: .4s;
-}
-.card .button:hover{
-    background-color: transparent;
-    border: 2px solid dodgerblue;
-    cursor: pointer;
-}
-.contact-me{
-    width: 100%;
-    height: 250px;
-    background-color:black;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-.contact-me p{
+.contact-me p {
     color: aliceblue;
-    font-size: 30px;
+    font-size: 32px; /* Increased font size */
     font-weight: bold;
     margin-bottom: 25px;
 }
-.contact-me .button-two{
-    background-color: dodgerblue;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 5px 30px;
-    border-radius: 20px;
-    transition: .4s;
-}
-.contact-me .button-two:hover{
-    background-color: transparent;
-    border: 2px solid dodgerblue;
-    cursor: pointer;
-}
-@media screen and (max-width: 850px){
-    .content h1{
-    margin: 15px 0px 15px;
-    font-size: 50px;
-    } 
+
+/* Media Queries */
+@media screen and (max-width: 850px) {
+    .content h1 {
+        font-size: 50px; /* Adjusted for smaller screens */
+    }
+
+    nav li {
+        font-size: 14px; /* Adjusted for smaller screens */
+    }
+
+    .logo {
+        font-size: 24px; /* Adjusted for smaller screens */
+    }
+
+    .btn {
+        padding: 8px 20px; /* Adjusted for smaller screens */
+    }
+
+    h3 {
+        font-size: 20px; /* Adjusted for smaller screens */
+    }
+
+    h6 {
+        font-size: 18px; /* Adjusted for smaller screens */
+    }
+
+    .about-text h2 {
+        font-size: 48px; /* Adjusted for smaller screens */
+    }
+
+    .about-text h5 {
+        font-size: 20px; /* Adjusted for smaller screens */
+    }
+
+    .about-text p {
+        font-size: 18px; /* Adjusted for smaller screens */
+    }
+
     nav li {
         font-size: 13px;
     }
-    .logo{
+
+    .logo {
         color: aliceblue;
         font-size: 20px;
         letter-spacing: 0.5px;
         cursor: pointer;
     }
-    .btn{
+
+    .btn {
         border: 1px solid transparent;
         font-weight: bold;
         font-size: 10px;
@@ -299,45 +187,51 @@ h4{
         border-radius: 7px;
         transition: transform .4s;
     }
-    .btn:hover{
-        transform: scale(1.1);
-    }
-    .about img{
+
+        .btn:hover {
+            transform: scale(1.1);
+        }
+
+    .about img {
         height: auto;
         width: 350px;
         margin-bottom: 12%;
     }
-    .about-text{
+
+    .about-text {
         width: 300px;
     }
-    .about-text h2{
-        color: white;
-        font-size: 50px;
-        margin-top: 30px;
-        text-transform: capitalize;
-        margin-bottom: 10px;
-    }
-    .about-text h5{
-        color: white;
-        letter-spacing: 1.8px;
-        font-size: 20px;
-        margin-bottom: 7px;
-        text-transform: capitalize;
-    }
-    .about-text p{
-        color: dodgerblue;
-        letter-spacing: .5px;
-        line-height: 19px;
-        font-size: 16px;
-        margin-bottom: 20px;
-    }
-    .title h2{
+
+        .about-text h2 {
+            color: white;
+            font-size: 50px;
+            margin-top: 30px;
+            text-transform: capitalize;
+            margin-bottom: 10px;
+        }
+
+        .about-text h5 {
+            color: white;
+            letter-spacing: 1.8px;
+            font-size: 20px;
+            margin-bottom: 7px;
+            text-transform: capitalize;
+        }
+
+        .about-text p {
+            color: dodgerblue;
+            letter-spacing: .5px;
+            line-height: 19px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+    .title h2 {
         color: white;
         font-size: 50px;
         width: 700px;
         margin: 20px auto;
         text-align: middle;
-        
     }
 }
 @media screen and (max-width: 670px){
@@ -1484,4 +1378,4 @@ h4{
         transition: .4s;
     }
 }
->>>>>>> f5649f5dbd8186aad345d35ea1d3f960d3b1fbf1
+
